@@ -106,6 +106,9 @@ endif
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true
 
+# Reduce system server verbosity
+PRODUCT_SYSTEM_SERVER_DEBUG_INFO ?= false
+
 # SystemUI plugins
 PRODUCT_PACKAGES += \
     QuickAccessWallet
