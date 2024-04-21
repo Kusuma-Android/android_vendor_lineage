@@ -1,3 +1,6 @@
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Recovery
 BOARD_USES_FULL_RECOVERY_IMAGE ?= true
 
